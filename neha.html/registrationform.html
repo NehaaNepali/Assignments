@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registration form</title>
+    </head>
+    <style>
+        *{
+        margin: 0;
+        padding:0;
+        }
+        body{
+            background-image: url("ima.jpg");
+            background-position: center;
+            background-size:cover;
+        }
+          table{
+                width: 550px;
+                font-weight: 400;
+                margin: 100px auto 0px auto;
+                padding: 5px;
+                font-size: 20px;
+                color:rgb(0, 0, 0)
+
+          }        
+
+                h3{
+                    text-align: center;
+                    padding:20px;
+                    text-decoration: underline;
+                    background-color:rgba(250, 235, 215, 0.493);
+                    color:rgb(0, 0, 0);
+                }
+                table{
+                    background-color:rgba(128, 255, 0, 0.808);
+                }
+                button{
+                    width: 100px;
+                    padding: 5px;
+                    font-size: 15px;
+                    border-radius: 4px;
+                    background-color: rgb(255, 208, 0);
+                    color:rgb(0, 107, 139);
+                    cursor:pointer;
+                    border: 10px;
+                }
+                h1{
+                    padding:10px;
+                    text-align: center;
+                    color:rgb(255, 94, 0);
+                    text-decoration: underline;
+                    text-shadow: 60px;
+                }
+      </style>
+    <body>
+        <h1>CANDIDATE REGISTRATION FORM!</h1>
+        <h3>FILL IN THE FOLLOWING FORMS</h3>
+        <form>
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" placeholder="name" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="Last Name" placeholder="surname" required></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="Phone Number" placeholder="9812******" required></td>
+                </tr>
+                <tr>
+                    <td>Email Id:</td>
+                    <td><input type="Email Id" placeholder="example1@**" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" placeholder="password" required> </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                    <input type="radio" name="gender" required>Male
+                    <input type="radio" name="gender" required>Female 
+                </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td>Hobbies:</td>
+                    <td><input type="checkbox" required>singing 
+                    <input type="checkbox" required>dancing
+                    <input type="checkbox" required>travelling 
+                    <input type="checkbox" required>drawing
+                    </td>
+                </tr>
+                <tr>
+                <td>Educational Background:</td>
+                <td><input type="Educational Background" placeholder="previous school" required> </td>
+                </tr>
+                <tr>
+                    <td>Course Selection:</td>
+                    <td>
+                     <select>
+                        <option>NONE</option required>
+                        <option>BSC</option required>
+                        <option>BSCIT</option required>
+                        <option>MBBS</option required>
+                        <option>BTECH</option required>
+                     </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea rows="4" col="10" placeholder="Current Address" required></textarea> </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>province:</td>
+                        <td>
+                            <select>
+                                <option value="">select province</option>
+                                <option value="i">province 1 [Np-1]</option>
+                                <option value="ii">province 2 [Np-2]</option>
+                                <option value="iii">province 3 [Np-3]</option>
+                                <option value="iv">province 4 [Np-4]</option>
+                                <option value="v">province 5 [Np-5]</option>
+                                <option value="vi">province 6 [Np-6]</option>
+                                <option value="vii">province 7 [Np-7]</option>
+                            </select>
+                             </td>
+                    </tr>
+                    <td>
+                        <button type="submit">SUBMIT</button><br><br>
+                        <button type="reset">RESET</button>
+                    </td>
+                </tr>
+            </table>
+                   
+        </form>      
+
+    </body>
+</html>
